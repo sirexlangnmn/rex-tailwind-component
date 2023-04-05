@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- <link href="dist/output.css" rel="stylesheet"> -->
+</head>
+
+<body class="bg-gray-200">
+
+	<!-- ============== -->
+	<!-- BANNER - START -->
+	<!-- ============== -->
+	<div id="banner" tabindex="-1"
+		class="z-50 flex justify-center w-full px-4 py-3 border border-b border-gray-200 bg-gray-50 dark:border-gray-600 lg:py-4 dark:bg-gray-700">
+		<div class="items-center md:flex">
+			<p class="text-sm font-medium text-gray-900 md:my-0 dark:text-white"><span
+					class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 hidden md:inline">New</span>We
+				have launched Flowbite Blocks featuring over 310+ website sections!<a
+					class="inline-flex items-center ml-2 text-sm font-medium text-blue-600 md:ml-2 dark:text-blue-500 hover:underline"
+					href="/blocks/">Check it out<svg class="w-4 h-4 ml-1 text-blue-600 dark:text-blue-500" fill="currentColor"
+						viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd"
+							d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+							clip-rule="evenodd"></path>
+					</svg></a></p>
+		</div>
+	</div>
+	<!-- ============== -->
+	<!-- BANNER - END -->
+	<!-- ============== -->
+
+
+	<!-- ========================== -->
+	<!-- NAVBAR [START] -->
+	<!-- ========================== -->
+	<nav class="bg-gray-800">
+		<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+			<div class="relative flex h-16 items-center justify-between">
+				<!-- ========================== -->
+				<!-- Mobile menu button [START] -->
+				<!-- ========================== -->
+				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+					<button type="button" id="mobile-menu-button"
+						class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+						aria-controls="mobile-menu" aria-expanded="false">
+						<span class="sr-only">Open main menu</span>
+						<!--
+              Icon when menu is closed.
+
+              Menu open: "hidden", Menu closed: "block"
+            -->
+						<svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+							aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+						</svg>
+						<!--
+              Icon when menu is open.
+
+              Menu open: "block", Menu closed: "hidden"
+            -->
+						<svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+							aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					</button>
+				</div>
+				<!-- ========================== -->
+				<!-- Mobile menu button [END] -->
+				<!-- ========================== -->
+
+
+
+				<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+					<!-- ========================== -->
+					<!-- LOGO [START] -->
+					<!-- ========================== -->
+					<div class="flex flex-shrink-0 items-center">
+						<img class="block h-8 w-auto lg:hidden" src="../assets/images/logo/logo.webp" alt="Logo">
+						<img class="hidden h-8 w-auto lg:block" src="../assets/images/logo/logo.webp" alt="Logo">
+					</div>
+					<!-- ========================== -->
+					<!-- LOGO [END] -->
+					<!-- ========================== -->
+
+					<!-- ========================== -->
+					<!-- SEARCH FIELD [START] -->
+					<!-- ========================== -->
+					<div class="relative flex items-center ml-4 mr-6">
+						<input
+							class="py-2 pl-10 pr-4 rounded-lg border border-gray-400 bg-gray-700 focus:outline-none focus:border-blue-500 text-gray-100"
+							type="text" placeholder="Search...">
+						<div class="absolute inset-y-0 left-0 flex items-center pl-4">
+							<svg class="w-5 h-5 text-gray-100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+								stroke-linecap="round" stroke-linejoin="round">
+								<circle cx="11" cy="11" r="8"></circle>
+								<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+							</svg>
+						</div>
+					</div>
+					<!-- ========================== -->
+					<!-- SEARCH FIELD [END] -->
+					<!-- ========================== -->
+				</div>
+
+
+				<!-- =============================== -->
+				<!-- LARGE SCREEN NAVIGATION [START] -->
+				<!-- =============================== -->
+				<div class="hidden sm:block sm:ml-6  mr-auto">
+					<div class="flex space-x-4">
+						<a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+							aria-current="page">Dashboard1</a>
+
+						<a href="#"
+							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
+
+						<a href="#"
+							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+
+						<a href="#"
+							class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+
+						<button
+							class="bg-blue-700 hover:bg-blue-800 active:bg-blue-700 text-white font-bold py-2 px-4 rounded transform transition duration-150 motion-reduce:transform-none focus:outline-none text-sm md:text-base leading-normal md:leading-4 whitespace-nowrap hidden md:block">
+							Pricing & FAQ
+						</button>
+					</div>
+				</div>
+				<!-- =============================== -->
+				<!-- LARGE SCREEN NAVIGATION [END] -->
+				<!-- =============================== -->
+
+				<!-- =============================== -->
+				<!-- PROFILE BUTTON [START] -->
+				<!-- =============================== -->
+				<div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+					<button type="button"
+						class="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+						<span class="sr-only">View notifications</span>
+						<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+							aria-hidden="true">
+							<path stroke-linecap="round" stroke-linejoin="round"
+								d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+						</svg>
+					</button>
+
+					<!-- Profile dropdown -->
+					<div class="relative ml-3">
+						<div>
+							<button type="button"
+								class="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+								id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+								<span class="sr-only">Open user menu</span>
+								<img class="h-8 w-8 rounded-full"
+									src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+									alt="">
+							</button>
+						</div>
+
+						<!--
+              Note for id user-menu-dropdown
+              Dropdown menu, show/hide based on menu state.
+  
+              Entering: "transition ease-out duration-100"
+                From: "transform opacity-0 scale-95"
+                To: "transform opacity-100 scale-100"
+              Leaving: "transition ease-in duration-75"
+                From: "transform opacity-100 scale-100"
+                To: "transform opacity-0 scale-95"
+            -->
+						<div id="user-menu-dropdown"
+							class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+							role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+							<!-- Active: "bg-gray-100", Not Active: "" -->
+							<a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+								id="user-menu-item-0">Your Profile</a>
+							<a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+								id="user-menu-item-1">Settings</a>
+							<a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+								id="user-menu-item-2">Sign out</a>
+						</div>
+					</div>
+				</div>
+				<!-- =============================== -->
+				<!-- PROFILE BUTTON [END] -->
+				<!-- =============================== -->
+			</div>
+		</div>
+
+		<!-- ================================================== -->
+		<!-- Mobile menu, show/hide based on menu state [START] -->
+		<!-- ================================================== -->
+		<div class="sm:hidden" id="mobile-menu">
+			<div class="space-y-1 px-2 pb-3 pt-2">
+				<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+				<a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+					aria-current="page">Dashboard2</a>
+
+				<a href="#"
+					class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+
+				<a href="#"
+					class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+
+				<a href="#"
+					class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+			</div>
+		</div>
+		<!-- ================================================== -->
+		<!-- Mobile menu, show/hide based on menu state [END] -->
+		<!-- ================================================== -->
+	</nav>
+	<!-- ========================== -->
+	<!-- NAVBAR [START] -->
+	<!-- ========================== -->
+
+
+
+
+	<div class="container mx-auto">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+			<div class="col-span-6 md:col-span-1 bg-white rounded-lg px-4 py-4 mt-4">
+				<p class="mb-2">Title</p>
+				<!-- element here -->
+			</div>
+			<div class="col-span-6 md:col-span-1 bg-white rounded-lg px-4 py-4 mt-4">
+				<p class="mb-2">Title</p>
+				<!-- element here -->
+			</div>
+		</div>
+	</div>
+
+	<script src="../assets/js/navbar/toggle-visibility.js"></script>
+</body>
+
+</html>
